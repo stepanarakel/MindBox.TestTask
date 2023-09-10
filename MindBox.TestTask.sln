@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionIt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindBox.TestTask.Tests", "src\MindBox.TestTask.Tests\MindBox.TestTask.Tests.csproj", "{81359938-FE29-4CA7-9369-08BFAD73D999}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindBox.TestTask.MsSql", "src\MindBox.TestTask.MsSql\MindBox.TestTask.MsSql.csproj", "{CC818907-4391-48A4-9723-10D90D75383F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{51BD1A98-A815-4F68-BF53-D17A63199951} = {71558B95-9323-4791-B3FC-7681097618E6}
 		{81359938-FE29-4CA7-9369-08BFAD73D999} = {71558B95-9323-4791-B3FC-7681097618E6}
+		{CC818907-4391-48A4-9723-10D90D75383F} = {71558B95-9323-4791-B3FC-7681097618E6}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{51BD1A98-A815-4F68-BF53-D17A63199951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,5 +33,9 @@ Global
 		{81359938-FE29-4CA7-9369-08BFAD73D999}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81359938-FE29-4CA7-9369-08BFAD73D999}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81359938-FE29-4CA7-9369-08BFAD73D999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC818907-4391-48A4-9723-10D90D75383F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC818907-4391-48A4-9723-10D90D75383F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC818907-4391-48A4-9723-10D90D75383F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC818907-4391-48A4-9723-10D90D75383F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
