@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <PackageId>MindBox.TestTask.Figures</PackageId>
+        <PackageVersion>0.0.1</PackageVersion>
+
+    </PropertyGroup>
+
+
+</Project>

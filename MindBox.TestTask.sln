@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{71558B95-9323-4791-B3FC-7681097618E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindBox.TestTask.Figures", "src\MindBox.TestTask.Figures\MindBox.TestTask.Figures.csproj", "{51BD1A98-A815-4F68-BF53-D17A63199951}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{11D6E73F-1E1F-4288-B57B-508B02DBAFD4}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindBox.TestTask.Tests", "src\MindBox.TestTask.Tests\MindBox.TestTask.Tests.csproj", "{81359938-FE29-4CA7-9369-08BFAD73D999}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{51BD1A98-A815-4F68-BF53-D17A63199951} = {71558B95-9323-4791-B3FC-7681097618E6}
+		{81359938-FE29-4CA7-9369-08BFAD73D999} = {71558B95-9323-4791-B3FC-7681097618E6}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51BD1A98-A815-4F68-BF53-D17A63199951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51BD1A98-A815-4F68-BF53-D17A63199951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51BD1A98-A815-4F68-BF53-D17A63199951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51BD1A98-A815-4F68-BF53-D17A63199951}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81359938-FE29-4CA7-9369-08BFAD73D999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81359938-FE29-4CA7-9369-08BFAD73D999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81359938-FE29-4CA7-9369-08BFAD73D999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81359938-FE29-4CA7-9369-08BFAD73D999}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
